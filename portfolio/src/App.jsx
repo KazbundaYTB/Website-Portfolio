@@ -7,10 +7,20 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <AboutMe />
-      <Portfolio />
-      <Footer />
+      <div className='w-full h-[85px] bg-blue-800'>
+        <NavBar />
+      </div>
+
+      <div className='w-full h-[800px] bg-blue-600'>
+        <AboutMe />
+      </div>
+      <div className='w-full h-[800px] bg-blue-400'>
+        <Portfolio />
+      </div>
+      
+      <div className='w-full h-[85px] bg-gray-600'>
+        <Footer />
+      </div>
     </div>
   );
 }
