@@ -7,14 +7,14 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <div className="App">
-      <div className='w-full h-[85px] bg-blue-800'>
+      <div className='w-full h-[85px] bg-gray-800 align-middle justify-center'>
         <NavBar />
       </div>
 
-      <div className='w-full h-[800px] bg-blue-600'>
+      <div className='w-full h-[800px] bg-gray-700 flex align-middle justify-center'>
         <AboutMe />
       </div>
-      <div className='w-full h-[800px] bg-blue-400'>
+      <div className='w-full h-[800px] bg-gray-700 flex align-middle justify-center'>
         <Portfolio />
       </div>
       
