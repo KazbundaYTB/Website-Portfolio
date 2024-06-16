@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactChatImage from '../img/ReactChat-Showcase.png';
 import ReactToDoImage from '../img/ReactToDo-Showcase.png';
+import MSWebImage from '../img/MSWeb-Showcase.png';
 export default function Portfolio() {
   return (
     <div className='flex flex-col items-center justify-start' id='projects'>
@@ -36,18 +37,18 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* <div className='w-[480px] h-[550px] rounded-xl bg-gray-900 mt-6 mb-6'>
+         <div className='w-[480px] h-[550px] rounded-xl bg-gray-900 mt-6 mb-6'>
           <div className='w-[450px] h-[520px] mt-4 mb-4 ml-4 mr-4 rounded-xl bg-gray-100'>
             <div className='w-full h-[220px] rounded-xl bg-gray-100'>
-              
+            <img src={MSWebImage} alt="Profile" className="w-[450px] h-[220px] object-cover absolute rounded-xl"/>
             </div>
             <div className='flex items-center justify-center mt-3 flex-col'>
-              <h1 className='text-2xl font-bold'>---</h1>
+              <h1 className='text-2xl font-bold'>MasterSurvival Web</h1>
               <div className='w-[85%] h-[1px] bg-black'></div>
-              <h1 className='text-xl text-pretty text-center translate-y-3 '>----</h1>
+              <h1 className='text-xl text-pretty text-center translate-y-3 '>Webová stránka napsaná v React.js pro server MasterSurvival.eu</h1>
             </div>
           </div>
-        </div> */}
+        </div> 
       </div>
     </div>
   )
