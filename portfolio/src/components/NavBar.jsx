@@ -10,8 +10,8 @@ export default function NavBar() {
       <button className='bg-transparent text-white rounded-full px-4 py-2 font-bold flex items-center gap-2'> <a href="#about" className=' flex items-center gap-2'><FaInfoCircle /> AboutMe</a> </button>
       <button className='bg-transparent text-white rounded-full px-4 py-2 font-bold flex items-center gap-2'> <a href="#projects"className=' flex items-center gap-2'><FaThList /> Projets </a> </button>
 
-      <button className='bg-transparent text-white rounded-full px-4 py-2 font-bold flex items-center  translate-x-3 gap-2'> <a href="https://richardpavlik.eu/chat" className=' flex items-center gap-2'><FaFolder /> ReactChat </a> </button>
-      <button className='bg-transparent text-white rounded-full px-4 py-2 font-bold flex items-center translate-x-3 gap-2'> <a href="https://richardpavlik.eu/Todo" className=' flex items-center gap-2'><FaFolder /> Todo </a> </button>
+      <button className='bg-transparent text-white rounded-full px-4 py-2 font-bold flex items-center  translate-x-3 gap-2'> <a href="https://chat.richardpavlik.eu/" className=' flex items-center gap-2'><FaFolder /> ReactChat </a> </button>
+      <button className='bg-transparent text-white rounded-full px-4 py-2 font-bold flex items-center translate-x-3 gap-2'> <a href="https://todo.richardpavlik.eu/" className=' flex items-center gap-2'><FaFolder /> Todo </a> </button>
       
     </div>
   );
