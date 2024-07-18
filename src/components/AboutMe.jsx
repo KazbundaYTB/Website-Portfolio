@@ -19,7 +19,7 @@ export default function AboutMe() {
   }, []);
 
   return (
-    <div className={`w-full h-full ${windowWidth <= 980 ? 'overflow-y-green' : 'overflow-y-blue'}`}>
+    <div className={`w-full h-full`}>
       <div
         className={`w-full h-[75%] flex ${
           windowWidth <= 980
