@@ -23,8 +23,13 @@ export default function Contacts() {
           : windowWidth <= 1680
           ? "h-[60%]"
           : "h-[50%]"
-      } bg-neutral-900 flex justify-center items-start overflow-y overflow-x-hidden`}
+      } bg-neutral-900 flex justify-center items-center flex-col overflow-x-hidden`}
     >
+      
+      <div className="w-full h-[15%] flex justify-center items-center flex-col text-center">
+        <h1 className="text-white text-3xl font-bold">Kontakty</h1>
+        <div className="w-[40px] h-[2px] bg-white"></div>
+      </div>
       <div className="flex flex-col justify-center items-center mt-24">
         <div
           className={`grid gap-6 ${
@@ -50,7 +55,7 @@ export default function Contacts() {
             </div>
           </div>
           <div className="bg-neutral-800 w-[260px] h-[235px] rounded-xl overflow-hidden flex flex-col justify-center items-center hover:-translate-y-5 hover:transition">
-          <a href="https://discordapp.com/users/714505079163715625">
+          <a href="https://www.instagram.com/pavlik._.r/">
           <div className=" w-[150px] h-[150px] rounded-full flex justify-center items-center bg-neutral-700">
               <FaInstagram className=" w-[120px] h-[120px] text-white" />
             </div>
@@ -63,7 +68,7 @@ export default function Contacts() {
             </div>
           </div>
           <div className="bg-neutral-800 w-[260px] h-[235px] rounded-xl overflow-hidden flex flex-col justify-center items-center hover:-translate-y-5 hover:transition">
-          <a href="https://discordapp.com/users/714505079163715625">
+          <a href="https://github.com/R-Pavlik">
           <div className=" w-[150px] h-[150px] rounded-full flex justify-center items-center bg-neutral-700">
               <FaGithub className=" w-[120px] h-[120px] text-white" />
             </div>
