@@ -32,7 +32,7 @@ export default function Contacts() {
               ? "grid-cols-1"
               : windowWidth <= 1680
               ? "grid-cols-3"
-              : "grid-cols-4"
+              : "grid-cols-3"
           } justify-center items-center mt-4`}
         >
           <div className="bg-neutral-800 w-[260px] h-[235px] rounded-xl overflow-hidden flex flex-col justify-center items-center hover:-translate-y-5 hover:transition">
