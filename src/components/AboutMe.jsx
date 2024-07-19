@@ -1,7 +1,6 @@
 import { React, useState, useEffect } from "react";
 import Memoji from "../img/1.png";
 import Background from "../img/background.jpg";
-import { FaDiscord } from "react-icons/fa";
 
 export default function AboutMe() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -41,11 +40,7 @@ export default function AboutMe() {
         >
           <h1 className="text-violet-400 text-3xl font-bold">WEBSITE PROGRAMATOR</h1>
           <h1 className="text-white text-6xl font-mono font-bold">Richard Pavlík</h1>
-          <a href="https://discordapp.com/users/714505079163715625">
-            <button className="text-white px-4 py-2 bg-indigo-600 rounded-2xl flex flex-row">
-              <FaDiscord className="mt-1 mr-2" /> Kazbunda#9069
-            </button>
-          </a>
+
         </div>
         <img src={Memoji} alt="" />
       </div>
