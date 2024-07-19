@@ -6,8 +6,8 @@ export default function App() {
   return (
     <div className='w-screen h-screen bg-neutral-900 overflow-x-hidden'>
         <AboutMe />
-        <Skills />
         <Contacts />
+        <Skills />
         
     </div>
   );
